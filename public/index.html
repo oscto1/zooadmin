@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+  
+            <link rel="stylesheet" href="login.css">
+            
+         </head>
+    </head>
+    <body>
+        <form onsubmit="return false" class="login">
+  
+            <fieldset>
+              
+                <legend class="legend">Login</legend>
+              
+              <div class="input">
+                  <input type="text" placeholder="Email" id="username" required />
+                <span><i class="fa fa-envelope-o"></i></span>
+              </div>
+              
+              <div class="input">
+                  <input type="password" placeholder="Password" id="password" required />
+                <span><i class="fa fa-lock"></i></span>
+              </div>
+              
+              <button type="submit" class="submit">Iniciar sesión</button>
+              
+            </fieldset>
+            
+            <div class="feedback">
+                login successful <br />
+              redirecting...
+            </div>
+            
+          </form>
+    
+          
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          <script src="login.js"></script>
+          <script src="server.js"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-auth.js"></script> -->
+    </body>
+</html>
